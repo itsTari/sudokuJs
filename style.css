@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.game-container{
+    width: 450px;
+    height: 450px;
+}
+.game-container input{
+    width: 50px;
+    height: 50px;
+    border: 1px solid grey;
+    text-align: center;
+}
+.odd-section{
+    background-color: lightgray;
+}
+.section{
+    background-color: burlywood;
+}
+.solve-btn{
+    background-color:gray;
+    color:burlywood;
+    border:none;
+    border-radius: 10px ;
+    padding: 7px 30px;
+    font-size: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
